@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundry XV | Anderrig Flagship</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 2rem 1rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      background: #2c5364;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #1e3c52;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+      animation: shimmer 3s infinite linear;
+      background: linear-gradient(90deg, #203a43 25%, #2c5364 50%, #203a43 75%);
+      background-size: 200% 100%;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .specs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .spec {
+      background: #1e3c52;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .spec h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .spec p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .cta a {
+      background: #0f2027;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #203a43;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      opacity: 0.6;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 Foundry XV</h1>
+    <p>Flagship power. Mutation-grade precision. Built to defy.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="store.html">Store</a>
+      <a href="support.html">Support</a>
+      <a href="about.html">About</a>
+      <a href="foundry-xv.html">Flagship Model</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Boot Shimmer Activated</h2>
+    <p>Every startup is a ritual. Every click, a legacy echo.</p>
+  </section>
+
+  <section class="specs">
+    <div class="spec">
+      <h3>Processor</h3>
+      <p>12-core Mutation Engine (Foundry-grade)</p>
+    </div>
+    <div class="spec">
+      <h3>Graphics</h3>
+      <p>Integrated Legacy Shader + Modular GPU Dock</p>
+    </div>
+    <div class="spec">
+      <h3>Display</h3>
+      <p>16" Anti-glare HDR panel with pixel-perfect rendering</p>
+    </div>
+    <div class="spec">
+      <h3>Memory</h3>
+      <p>32GB LPDDR5X (Founder-locked)</p>
+    </div>
+    <div class="spec">
+      <h3>Storage</h3>
+      <p>2TB NVMe SSD + Expansion Bay</p>
+    </div>
+    <div class="spec">
+      <h3>Ports</h3>
+      <p>USB-C x3, HDMI, SD, Legacy Dock, Privacy Switch</p>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="store.html#Foundry">Compare Foundry Series</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Anderrig. Foundry XV isn’t a device—it’s a declaration.
+  </footer>
+</body>
+</html>
